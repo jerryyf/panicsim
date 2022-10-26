@@ -3929,3 +3929,373 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.26-04.59.48:652][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.10.26-04.59.48:729][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
 [2022.10.26-04.59.48:798][383]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.10.26-05.00.37:175][615]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.26-05.00.37:183][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.26-05.00.37:183][615]PIE: New page: PIE session: Demonstration (Oct 27, 2022, 3:00:37 AM)
+[2022.10.26-05.00.37:183][615]LogPlayLevel: Creating play world package: /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.00.37:641][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.458483s)
+[2022.10.26-05.00.37:641][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AssetsvilleTown/Maps/Demonstration.Demonstration to /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration (0.458581s)
+[2022.10.26-05.00.37:642][615]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.26-05.00.37:642][615]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-05.00.37:642][615]LogAIModule: Creating AISystem for world Demonstration
+[2022.10.26-05.00.37:643][615]LogPlayLevel: PIE: World Init took: (0.001832s)
+[2022.10.26-05.00.37:673][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.10.26-05.00.37:678][615]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.10.26-05.00.37:679][615]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.26-05.00.37:679][615]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.26-05.00.37:679][615]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.26-05.00.37:679][615]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.26-05.00.37:679][615]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.26-05.00.37:679][615]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.26-05.00.37:679][615]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.26-05.00.37:679][615]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.26-05.00.37:679][615]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.26-05.00.37:679][615]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.26-05.00.37:679][615]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.26-05.00.37:681][615]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.26-05.00.37:722][615]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G935/G933s Gaming Headset)
+[2022.10.26-05.00.37:722][615]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.26-05.00.37:722][615]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.26-05.00.37:722][615]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.26-05.00.37:723][615]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.10.26-05.00.37:723][615]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=22
+[2022.10.26-05.00.37:724][615]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.10.26-05.00.37:724][615]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.10.26-05.00.37:724][615]LogInit: FAudioDevice initialized.
+[2022.10.26-05.00.37:724][615]LogAudio: Display: Audio Device (ID: 22) registered with world 'Demonstration'.
+[2022.10.26-05.00.37:736][615]LogLoad: Game class is 'FunctionalTestGameMode'
+[2022.10.26-05.00.37:943][615]LogWorld: Bringing World /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration up for play (max tick rate 0) at 2022.10.26-16.00.37
+[2022.10.26-05.00.37:952][615]LogWorld: Bringing up level for play took: 0.216022
+[2022.10.26-05.00.37:954][615]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2022.10.26-05.00.37:961][615]PIE: Server logged in
+[2022.10.26-05.00.37:961][615]PIE: Play in editor total start time 0.779 seconds.
+[2022.10.26-05.01.11:685][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.01.11:685][211]LogWorld: BeginTearingDown for /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.01.11:688][211]LogWorld: UWorld::CleanupWorld for Demonstration, bSessionEnded=true, bCleanupResources=true
+[2022.10.26-05.01.11:716][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.01.11:731][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.26-05.01.11:743][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.01.11:771][211]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.26-05.01.11:772][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.10.26-05.01.11:773][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.10.26-05.01.11:777][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.01.11:863][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.10.26-05.01.11:932][212]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.10.26-05.01.16:812][458]LogViewport: Scene viewport resized to 1245x691, mode Windowed.
+[2022.10.26-05.01.44:780][538]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2022.10.26-05.02.04:167][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door/BP_BarredDoor" FILE="C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_BarredDoor.uasset" SILENT=true
+[2022.10.26-05.02.04:180][630]LogSavePackage: Moving output files for package: /Game/Blueprints/Door/BP_BarredDoor
+[2022.10.26-05.02.04:181][630]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/BP_BarredDoor6B2736EE4B3FCEEE1693B4981A82324A.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_BarredDoor.uasset'
+[2022.10.26-05.02.04:204][630]AssetCheck: New page: Asset Save: BP_BarredDoor
+[2022.10.26-05.02.04:204][630]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Door/BP_BarredDoor.BP_BarredDoor
+[2022.10.26-05.02.18:887][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door/BP_BarredDoor" FILE="C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_BarredDoor.uasset" SILENT=true
+[2022.10.26-05.02.18:901][283]LogSavePackage: Moving output files for package: /Game/Blueprints/Door/BP_BarredDoor
+[2022.10.26-05.02.18:902][283]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/BP_BarredDoor2C6650E44CEF9EB480557C914E972301.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_BarredDoor.uasset'
+[2022.10.26-05.02.18:923][283]AssetCheck: New page: Asset Save: BP_BarredDoor
+[2022.10.26-05.02.18:923][283]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Door/BP_BarredDoor.BP_BarredDoor
+[2022.10.26-05.02.20:691][398]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.26-05.02.20:699][398]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.10.26-05.02.20:700][398]LogPlayLevel: [PlayLevel] Compiling BP_BarredDoor before play...
+[2022.10.26-05.02.20:774][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.10.26-05.02.20:782][398]LogPlayLevel: PlayLevel: Blueprint regeneration took 83 ms (1 blueprints)
+[2022.10.26-05.02.20:782][398]PIE: New page: PIE session: Demonstration (Oct 27, 2022, 3:02:20 AM)
+[2022.10.26-05.02.20:783][398]LogPlayLevel: Creating play world package: /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.02.21:230][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.447213s)
+[2022.10.26-05.02.21:230][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AssetsvilleTown/Maps/Demonstration.Demonstration to /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration (0.447302s)
+[2022.10.26-05.02.21:230][398]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.26-05.02.21:230][398]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-05.02.21:230][398]LogAIModule: Creating AISystem for world Demonstration
+[2022.10.26-05.02.21:232][398]LogPlayLevel: PIE: World Init took: (0.002078s)
+[2022.10.26-05.02.21:263][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.10.26-05.02.21:264][398]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.10.26-05.02.21:264][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.26-05.02.21:264][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.26-05.02.21:264][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.26-05.02.21:264][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.26-05.02.21:264][398]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.26-05.02.21:264][398]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.26-05.02.21:264][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.26-05.02.21:264][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.26-05.02.21:264][398]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.26-05.02.21:264][398]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.26-05.02.21:264][398]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.26-05.02.21:266][398]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.26-05.02.21:307][398]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G935/G933s Gaming Headset)
+[2022.10.26-05.02.21:308][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.26-05.02.21:308][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.26-05.02.21:308][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.26-05.02.21:308][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.10.26-05.02.21:308][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=23
+[2022.10.26-05.02.21:310][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.10.26-05.02.21:310][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.10.26-05.02.21:310][398]LogInit: FAudioDevice initialized.
+[2022.10.26-05.02.21:310][398]LogAudio: Display: Audio Device (ID: 23) registered with world 'Demonstration'.
+[2022.10.26-05.02.21:324][398]LogLoad: Game class is 'FunctionalTestGameMode'
+[2022.10.26-05.02.21:546][398]LogWorld: Bringing World /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration up for play (max tick rate 0) at 2022.10.26-16.02.21
+[2022.10.26-05.02.21:556][398]LogWorld: Bringing up level for play took: 0.232395
+[2022.10.26-05.02.21:558][398]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2022.10.26-05.02.21:564][398]PIE: Server logged in
+[2022.10.26-05.02.21:565][398]PIE: Play in editor total start time 0.867 seconds.
+[2022.10.26-05.02.46:355][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.02.46:355][521]LogWorld: BeginTearingDown for /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.02.46:358][521]LogWorld: UWorld::CleanupWorld for Demonstration, bSessionEnded=true, bCleanupResources=true
+[2022.10.26-05.02.46:390][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.02.46:409][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.26-05.02.46:422][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.02.46:451][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.02.46:452][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.10.26-05.02.46:453][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.10.26-05.02.46:558][521]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.10.26-05.02.46:643][522]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.10.26-05.02.47:449][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.10.26-05.02.48:946][550]LogSavePackage: Moving output files for package: /Game/AssetsvilleTown/Maps/Demonstration
+[2022.10.26-05.02.48:947][550]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/DemonstrationA4705EF34550D3176639C8AC001D6219.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/AssetsvilleTown/Maps/Demonstration.umap'
+[2022.10.26-05.02.49:006][550]AssetCheck: New page: Asset Save: Demonstration
+[2022.10.26-05.02.49:006][550]LogContentValidation: Display: Validating World /Game/AssetsvilleTown/Maps/Demonstration.Demonstration
+[2022.10.26-05.03.16:854][749]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.03.16:854][749]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.03.16:860][749]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_0
+[2022.10.26-05.03.16:863][749]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_0
+[2022.10.26-05.03.22:403][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.03.22:403][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.03.22:412][953]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_1
+[2022.10.26-05.03.22:415][953]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_1
+[2022.10.26-05.03.27:616][197]Cmd: TRANSACTION UNDO
+[2022.10.26-05.03.27:616][197]LogEditorTransaction: Undo Create Actors
+[2022.10.26-05.03.29:377][224]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Door/BP_Door.BP_Door
+[2022.10.26-05.03.29:378][224]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-05.03.39:562][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door/BP_Door" FILE="C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_Door.uasset" SILENT=true
+[2022.10.26-05.03.39:577][256]LogSavePackage: Moving output files for package: /Game/Blueprints/Door/BP_Door
+[2022.10.26-05.03.39:578][256]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/BP_Door1523DE6842D50D701E517BB1A5681F1C.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_Door.uasset'
+[2022.10.26-05.03.39:600][256]AssetCheck: New page: Asset Save: BP_Door
+[2022.10.26-05.03.39:600][256]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Door/BP_Door.BP_Door
+[2022.10.26-05.03.45:909][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door/BP_Door" FILE="C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_Door.uasset" SILENT=true
+[2022.10.26-05.03.45:924][980]LogSavePackage: Moving output files for package: /Game/Blueprints/Door/BP_Door
+[2022.10.26-05.03.45:924][980]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/BP_Door534CCAE2460091071A0F30B0D13FBAB8.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_Door.uasset'
+[2022.10.26-05.03.45:943][980]AssetCheck: New page: Asset Save: BP_Door
+[2022.10.26-05.03.45:943][980]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Door/BP_Door.BP_Door
+[2022.10.26-05.03.52:119][598]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.26-05.03.52:127][598]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.10.26-05.03.52:128][598]LogPlayLevel: [PlayLevel] Compiling BP_Door before play...
+[2022.10.26-05.03.52:218][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.10.26-05.03.52:226][598]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (1 blueprints)
+[2022.10.26-05.03.52:227][598]PIE: New page: PIE session: Demonstration (Oct 27, 2022, 3:03:52 AM)
+[2022.10.26-05.03.52:227][598]LogPlayLevel: Creating play world package: /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.03.52:708][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.481689s)
+[2022.10.26-05.03.52:708][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AssetsvilleTown/Maps/Demonstration.Demonstration to /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration (0.481793s)
+[2022.10.26-05.03.52:708][598]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.26-05.03.52:708][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-05.03.52:709][598]LogAIModule: Creating AISystem for world Demonstration
+[2022.10.26-05.03.52:710][598]LogPlayLevel: PIE: World Init took: (0.002121s)
+[2022.10.26-05.03.52:751][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.10.26-05.03.52:752][598]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.10.26-05.03.52:752][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.26-05.03.52:752][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.26-05.03.52:752][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.26-05.03.52:752][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.26-05.03.52:752][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.26-05.03.52:752][598]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.26-05.03.52:752][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.26-05.03.52:752][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.26-05.03.52:752][598]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.26-05.03.52:752][598]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.26-05.03.52:752][598]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.26-05.03.52:755][598]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.26-05.03.52:800][598]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G935/G933s Gaming Headset)
+[2022.10.26-05.03.52:800][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.26-05.03.52:800][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.26-05.03.52:800][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.26-05.03.52:801][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.10.26-05.03.52:801][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=24
+[2022.10.26-05.03.52:803][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.10.26-05.03.52:803][598]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.10.26-05.03.52:803][598]LogInit: FAudioDevice initialized.
+[2022.10.26-05.03.52:803][598]LogAudio: Display: Audio Device (ID: 24) registered with world 'Demonstration'.
+[2022.10.26-05.03.52:822][598]LogLoad: Game class is 'FunctionalTestGameMode'
+[2022.10.26-05.03.53:049][598]LogWorld: Bringing World /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration up for play (max tick rate 0) at 2022.10.26-16.03.53
+[2022.10.26-05.03.53:058][598]LogWorld: Bringing up level for play took: 0.236596
+[2022.10.26-05.03.53:060][598]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2022.10.26-05.03.53:066][598]PIE: Server logged in
+[2022.10.26-05.03.53:067][598]PIE: Play in editor total start time 0.94 seconds.
+[2022.10.26-05.03.54:375][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.03.54:375][621]LogWorld: BeginTearingDown for /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.03.54:379][621]LogWorld: UWorld::CleanupWorld for Demonstration, bSessionEnded=true, bCleanupResources=true
+[2022.10.26-05.03.54:430][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.03.54:449][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.26-05.03.54:465][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.03.54:515][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.03.54:534][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.10.26-05.03.54:536][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.10.26-05.03.54:628][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.10.26-05.03.54:715][622]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.10.26-05.03.57:743][741]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.03.57:743][741]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.03.57:750][741]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_2
+[2022.10.26-05.03.57:752][741]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_2
+[2022.10.26-05.04.01:738][946]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.04.01:738][946]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_Door.BP_Door_C
+[2022.10.26-05.04.01:746][946]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_3
+[2022.10.26-05.04.01:749][946]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_Door.BP_Door as actor: BP_Door_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_Door_C_3
+[2022.10.26-05.04.15:130][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.10.26-05.04.16:641][612]LogSavePackage: Moving output files for package: /Game/AssetsvilleTown/Maps/Demonstration
+[2022.10.26-05.04.16:642][612]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/Demonstration1892A1364ED1A4094E2AC08E3DE0B522.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/AssetsvilleTown/Maps/Demonstration.umap'
+[2022.10.26-05.04.16:701][612]AssetCheck: New page: Asset Save: Demonstration
+[2022.10.26-05.04.16:702][612]LogContentValidation: Display: Validating World /Game/AssetsvilleTown/Maps/Demonstration.Demonstration
+[2022.10.26-05.04.17:148][635]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.26-05.04.17:156][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.26-05.04.17:156][635]PIE: New page: PIE session: Demonstration (Oct 27, 2022, 3:04:17 AM)
+[2022.10.26-05.04.17:157][635]LogPlayLevel: Creating play world package: /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.04.17:646][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.489760s)
+[2022.10.26-05.04.17:647][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AssetsvilleTown/Maps/Demonstration.Demonstration to /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration (0.489849s)
+[2022.10.26-05.04.17:647][635]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.26-05.04.17:647][635]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-05.04.17:647][635]LogAIModule: Creating AISystem for world Demonstration
+[2022.10.26-05.04.17:648][635]LogPlayLevel: PIE: World Init took: (0.001835s)
+[2022.10.26-05.04.17:685][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.10.26-05.04.17:686][635]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.10.26-05.04.17:686][635]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.26-05.04.17:686][635]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.26-05.04.17:686][635]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.26-05.04.17:686][635]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.26-05.04.17:686][635]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.26-05.04.17:686][635]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.26-05.04.17:686][635]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.26-05.04.17:687][635]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.26-05.04.17:687][635]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.26-05.04.17:687][635]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.26-05.04.17:687][635]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.26-05.04.17:689][635]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.26-05.04.17:732][635]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G935/G933s Gaming Headset)
+[2022.10.26-05.04.17:732][635]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.26-05.04.17:732][635]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.26-05.04.17:732][635]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.26-05.04.17:733][635]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.10.26-05.04.17:733][635]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=25
+[2022.10.26-05.04.17:735][635]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.10.26-05.04.17:735][635]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.10.26-05.04.17:735][635]LogInit: FAudioDevice initialized.
+[2022.10.26-05.04.17:735][635]LogAudio: Display: Audio Device (ID: 25) registered with world 'Demonstration'.
+[2022.10.26-05.04.17:750][635]LogLoad: Game class is 'FunctionalTestGameMode'
+[2022.10.26-05.04.17:965][635]LogWorld: Bringing World /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration up for play (max tick rate 0) at 2022.10.26-16.04.17
+[2022.10.26-05.04.17:973][635]LogWorld: Bringing up level for play took: 0.222879
+[2022.10.26-05.04.17:975][635]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2022.10.26-05.04.17:988][635]PIE: Server logged in
+[2022.10.26-05.04.17:989][635]PIE: Play in editor total start time 0.834 seconds.
+[2022.10.26-05.04.51:894][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.04.51:895][134]LogWorld: BeginTearingDown for /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.04.51:898][134]LogWorld: UWorld::CleanupWorld for Demonstration, bSessionEnded=true, bCleanupResources=true
+[2022.10.26-05.04.51:929][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.04.51:951][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.26-05.04.51:963][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.04.52:015][134]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.26-05.04.52:015][134]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.10.26-05.04.52:017][134]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.10.26-05.04.52:021][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.04.52:097][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.10.26-05.04.52:177][135]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.10.26-05.04.57:086][320]LogContentBrowser: Deferred new asset file creation: BP_BarredDoor1
+[2022.10.26-05.04.57:137][320]LogContentBrowser: Creating deferred item: BP_BarredDoor1
+[2022.10.26-05.04.57:150][321]LogContentBrowser: Renaming the item being created (Deferred Item: BP_BarredDoor1).
+[2022.10.26-05.05.02:445][584]LogContentBrowser: Attempting asset rename: BP_BarredDoor1 -> BP_GlassDoor
+[2022.10.26-05.05.02:492][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.10.26-05.05.02:512][584]LogContentBrowser: End creating deferred item BP_BarredDoor1
+[2022.10.26-05.05.04:016][644]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor
+[2022.10.26-05.05.04:016][644]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-05.05.07:713][719]LogViewport: Scene viewport resized to 687x498, mode Windowed.
+[2022.10.26-05.05.09:091][761]LogViewport: Scene viewport resized to 1245x693, mode Windowed.
+[2022.10.26-05.05.37:197][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door/BP_GlassDoor" FILE="C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_GlassDoor.uasset" SILENT=true
+[2022.10.26-05.05.37:214][573]LogSavePackage: Moving output files for package: /Game/Blueprints/Door/BP_GlassDoor
+[2022.10.26-05.05.37:214][573]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/BP_GlassDoor7ECCF5354767A1A0A206F9A484A7E1B9.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/Blueprints/Door/BP_GlassDoor.uasset'
+[2022.10.26-05.05.37:235][573]AssetCheck: New page: Asset Save: BP_GlassDoor
+[2022.10.26-05.05.37:235][573]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor
+[2022.10.26-05.05.46:655][924]Cmd: DELETE
+[2022.10.26-05.05.46:655][924]Cmd: ACTOR DELETE
+[2022.10.26-05.05.46:758][924]LogEditorActor: Deleted Actor: BP_Door_C
+[2022.10.26-05.05.46:802][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.10.26-05.05.46:806][924]LogEditorActor: Deleted 1 Actors (0.151 secs)
+[2022.10.26-05.05.48:367][992]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor_C
+[2022.10.26-05.05.48:367][992]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor_C
+[2022.10.26-05.05.48:372][992]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor as actor: BP_GlassDoor_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_GlassDoor_C_0
+[2022.10.26-05.05.48:374][992]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor as actor: BP_GlassDoor_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_GlassDoor_C_0
+[2022.10.26-05.05.52:623][180]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor_C
+[2022.10.26-05.05.52:623][180]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor_C
+[2022.10.26-05.05.52:631][180]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor as actor: BP_GlassDoor_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_GlassDoor_C_1
+[2022.10.26-05.05.52:633][180]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Door/BP_GlassDoor.BP_GlassDoor as actor: BP_GlassDoor_C /Game/AssetsvilleTown/Maps/Demonstration.Demonstration:PersistentLevel.BP_GlassDoor_C_1
+[2022.10.26-05.05.55:680][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.10.26-05.05.57:195][324]LogSavePackage: Moving output files for package: /Game/AssetsvilleTown/Maps/Demonstration
+[2022.10.26-05.05.57:196][324]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/Demonstration0C6A23A540802408C29A059EC34EB0CF.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/AssetsvilleTown/Maps/Demonstration.umap'
+[2022.10.26-05.05.57:243][324]AssetCheck: New page: Asset Save: Demonstration
+[2022.10.26-05.05.57:243][324]LogContentValidation: Display: Validating World /Game/AssetsvilleTown/Maps/Demonstration.Demonstration
+[2022.10.26-05.05.57:837][349]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.26-05.05.57:849][349]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.10.26-05.05.57:850][349]LogPlayLevel: [PlayLevel] Compiling BP_GlassDoor before play...
+[2022.10.26-05.05.57:938][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.10.26-05.05.57:940][349]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (1 blueprints)
+[2022.10.26-05.05.57:940][349]PIE: New page: PIE session: Demonstration (Oct 27, 2022, 3:05:57 AM)
+[2022.10.26-05.05.57:940][349]LogPlayLevel: Creating play world package: /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.05.58:422][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.482055s)
+[2022.10.26-05.05.58:422][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AssetsvilleTown/Maps/Demonstration.Demonstration to /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration (0.482156s)
+[2022.10.26-05.05.58:422][349]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.26-05.05.58:422][349]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-05.05.58:423][349]LogAIModule: Creating AISystem for world Demonstration
+[2022.10.26-05.05.58:424][349]LogPlayLevel: PIE: World Init took: (0.002036s)
+[2022.10.26-05.05.58:466][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.10.26-05.05.58:467][349]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.10.26-05.05.58:468][349]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.26-05.05.58:468][349]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.26-05.05.58:468][349]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.26-05.05.58:468][349]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.26-05.05.58:468][349]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.26-05.05.58:468][349]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.26-05.05.58:468][349]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.26-05.05.58:468][349]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.26-05.05.58:468][349]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.26-05.05.58:468][349]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.26-05.05.58:468][349]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.26-05.05.58:470][349]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.26-05.05.58:518][349]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G935/G933s Gaming Headset)
+[2022.10.26-05.05.58:518][349]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.26-05.05.58:518][349]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.26-05.05.58:518][349]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.26-05.05.58:519][349]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.10.26-05.05.58:519][349]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=26
+[2022.10.26-05.05.58:521][349]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.10.26-05.05.58:521][349]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.10.26-05.05.58:521][349]LogInit: FAudioDevice initialized.
+[2022.10.26-05.05.58:521][349]LogAudio: Display: Audio Device (ID: 26) registered with world 'Demonstration'.
+[2022.10.26-05.05.58:534][349]LogLoad: Game class is 'FunctionalTestGameMode'
+[2022.10.26-05.05.58:777][349]LogWorld: Bringing World /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration.Demonstration up for play (max tick rate 0) at 2022.10.26-16.05.58
+[2022.10.26-05.05.58:786][349]LogWorld: Bringing up level for play took: 0.251579
+[2022.10.26-05.05.58:788][349]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2022.10.26-05.05.58:794][349]PIE: Server logged in
+[2022.10.26-05.05.58:795][349]PIE: Play in editor total start time 0.951 seconds.
+[2022.10.26-05.06.05:605][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.06.05:605][640]LogWorld: BeginTearingDown for /Game/AssetsvilleTown/Maps/UEDPIE_0_Demonstration
+[2022.10.26-05.06.05:609][640]LogWorld: UWorld::CleanupWorld for Demonstration, bSessionEnded=true, bCleanupResources=true
+[2022.10.26-05.06.05:639][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.06.05:661][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.26-05.06.05:673][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-05.06.05:728][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-05.06.05:744][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.10.26-05.06.05:746][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.10.26-05.06.05:811][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.10.26-05.06.05:888][641]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.10.26-05.06.14:250][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.10.26-05.06.15:771][ 28]LogSavePackage: Moving output files for package: /Game/AssetsvilleTown/Maps/Demonstration
+[2022.10.26-05.06.15:772][ 28]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/DemonstrationCCC907EF4F6B3ED4F2623B91BAD03E2F.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/AssetsvilleTown/Maps/Demonstration.umap'
+[2022.10.26-05.06.15:821][ 28]AssetCheck: New page: Asset Save: Demonstration
+[2022.10.26-05.06.15:822][ 28]LogContentValidation: Display: Validating World /Game/AssetsvilleTown/Maps/Demonstration.Demonstration
+[2022.10.26-05.06.16:482][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.10.26-05.06.17:999][ 42]LogSavePackage: Moving output files for package: /Game/AssetsvilleTown/Maps/Demonstration
+[2022.10.26-05.06.18:000][ 42]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/DemonstrationE6C3AEC5430664BCA5F1A08A2FA0FF98.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/AssetsvilleTown/Maps/Demonstration.umap'
+[2022.10.26-05.06.18:058][ 42]AssetCheck: New page: Asset Save: Demonstration
+[2022.10.26-05.06.18:058][ 42]LogContentValidation: Display: Validating World /Game/AssetsvilleTown/Maps/Demonstration.Demonstration
+[2022.10.26-05.06.19:562][123]BlueprintLog: New page: Compile BP_BarredDoor
+[2022.10.26-05.06.19:628][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.10.26-05.06.21:198][282]BlueprintLog: New page: Compile BP_Door
+[2022.10.26-05.06.21:262][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.10.26-05.06.26:391][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.10.26-05.06.27:876][534]LogSavePackage: Moving output files for package: /Game/AssetsvilleTown/Maps/Demonstration
+[2022.10.26-05.06.27:877][534]LogSavePackage: Moving 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Saved/Demonstration822BDD3F4EACC07CAC8841A0F3D1BC99.tmp' to 'C:/Users/Danny/Desktop/uni/2k22/comp3421/comp3421-project/Content/AssetsvilleTown/Maps/Demonstration.umap'
+[2022.10.26-05.06.27:923][534]AssetCheck: New page: Asset Save: Demonstration
+[2022.10.26-05.06.27:924][534]LogContentValidation: Display: Validating World /Game/AssetsvilleTown/Maps/Demonstration.Demonstration
