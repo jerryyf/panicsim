@@ -1006,3 +1006,95 @@ Script Stack (0 frames):
 [2022.10.26-02.52.58:158][206]LogEditorTransaction: Undo Create Actors
 [2022.10.26-02.52.58:195][206]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of invalid bounds (object: None)
 [2022.10.26-02.52.58:234][207]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.10:993][332]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.26-02.54.10:993][332]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.26-02.54.10:993][332]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_1
+[2022.10.26-02.54.10:995][332]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_1
+[2022.10.26-02.54.11:007][332]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.11:677][386]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.26-02.54.11:677][386]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.26-02.54.11:678][386]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_B42E99E6D14E9E4301_1510267720
+[2022.10.26-02.54.11:679][386]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_B42E99E6D14E9E4301_1510267720
+[2022.10.26-02.54.11:728][387]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.17:557][950]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.22:750][500]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.28:359][ 43]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.32:663][514]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.35:150][756]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.38:574][109]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.54.44:674][744]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.26-02.54.44:683][744]LogWorldPartition: Display: GenerateStreaming started...
+[2022.10.26-02.54.44:683][744]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.10.26-02.54.44:683][744]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.10.26-02.54.44:683][744]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.10.26-02.54.44:683][744]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.10.26-02.54.44:683][744]LogWorldPartition: Display: GetPartitionedActors took 68 us
+[2022.10.26-02.54.44:683][744]LogWorldPartition: Display: GenerateStreaming took 694 us
+[2022.10.26-02.54.44:683][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.26-02.54.44:684][744]PIE: New page: PIE session: FirstPersonMap (27 Oct 2022, 12:54:44 am)
+[2022.10.26-02.54.44:705][744]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.10.26-02.54.44:717][744]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.10.26-02.54.44:717][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012283s)
+[2022.10.26-02.54.44:717][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.012378s)
+[2022.10.26-02.54.44:717][744]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.26-02.54.44:717][744]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.10.26-02.54.44:718][744]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.10.26-02.54.44:718][744]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.10.26-02.54.44:721][744]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.10.26-02.54.44:721][744]LogPlayLevel: PIE: World Init took: (0.003808s)
+[2022.10.26-02.54.44:749][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.10.26-02.54.44:750][744]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.10.26-02.54.44:750][744]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.26-02.54.44:750][744]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.26-02.54.44:750][744]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.26-02.54.44:750][744]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.26-02.54.44:750][744]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.26-02.54.44:750][744]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.26-02.54.44:750][744]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.26-02.54.44:750][744]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.26-02.54.44:751][744]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.26-02.54.44:751][744]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.26-02.54.44:751][744]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.26-02.54.44:753][744]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.26-02.54.44:780][744]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.10.26-02.54.44:780][744]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.26-02.54.44:780][744]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.26-02.54.44:780][744]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.26-02.54.44:781][744]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.10.26-02.54.44:781][744]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.10.26-02.54.44:782][744]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.10.26-02.54.44:782][744]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.10.26-02.54.44:782][744]LogInit: FAudioDevice initialized.
+[2022.10.26-02.54.44:782][744]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2022.10.26-02.54.44:795][744]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.26-02.54.44:800][744]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.10.26-13.54.44
+[2022.10.26-02.54.44:801][744]LogWorld: Bringing up level for play took: 0.005039
+[2022.10.26-02.54.44:802][744]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2022.10.26-02.54.44:805][744]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.462
+[2022.10.26-02.54.44:805][744]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.10.26-02.54.44:807][744]PIE: Server logged in
+[2022.10.26-02.54.44:808][744]PIE: Play in editor total start time 0.128 seconds.
+[2022.10.26-02.55.00:334][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-02.55.00:335][539]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.10.26-02.55.00:335][539]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.26-02.55.00:336][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-02.55.00:350][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.26-02.55.00:355][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.26-02.55.00:385][539]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.26-02.55.00:385][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.10.26-02.55.00:387][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.10.26-02.55.00:391][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.26-02.55.00:395][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.10.26-02.55.00:486][540]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.10.26-02.55.00:486][540]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of invalid bounds (object: None)
+[2022.10.26-02.55.00:510][541]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2022.10.26-02.55.12:611][861]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/IR/L0T0F6F71NDZKEJNP20S5G
+[2022.10.26-02.55.12:612][861]LogSavePackage: Moving 'C:/Users/Jerry/Uni/COMP3421/panic_project/Saved/L0T0F6F71NDZKEJNP20S5GEB9F6B6F4C0ADC34EF7C7D863481F889.tmp' to 'C:/Users/Jerry/Uni/COMP3421/panic_project/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/IR/L0T0F6F71NDZKEJNP20S5G.uasset'
+[2022.10.26-02.55.12:615][861]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/7X/Z2QVM8S6HS0NGKPY97HXSB
+[2022.10.26-02.55.12:616][861]LogSavePackage: Moving 'C:/Users/Jerry/Uni/COMP3421/panic_project/Saved/Z2QVM8S6HS0NGKPY97HXSBA0D9F2474F8C8B65ABC58FB9333E6563.tmp' to 'C:/Users/Jerry/Uni/COMP3421/panic_project/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/7X/Z2QVM8S6HS0NGKPY97HXSB.uasset'
+[2022.10.26-02.55.12:618][861]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ER/68ZUKRR9GEY3XASWY1UWF9
+[2022.10.26-02.55.12:618][861]LogSavePackage: Moving 'C:/Users/Jerry/Uni/COMP3421/panic_project/Saved/68ZUKRR9GEY3XASWY1UWF9F76C7C2647CCA843EC98219489C7D074.tmp' to 'C:/Users/Jerry/Uni/COMP3421/panic_project/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ER/68ZUKRR9GEY3XASWY1UWF9.uasset'
+[2022.10.26-02.55.12:638][861]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.26-02.55.12:638][861]LogContentValidation: Display: Validating Enemy_NPC_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Enemy_NPC_C_UAID_B42E99E6D14EC84101_1790379001
+[2022.10.26-02.55.12:638][861]LogContentValidation: Display: Validating NPC_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NPC_C_UAID_B42E99E6D14EC54101_2057638471
+[2022.10.26-02.55.12:638][861]LogContentValidation: Display: Validating NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_B42E99E6D14E9E4301_1510267720
