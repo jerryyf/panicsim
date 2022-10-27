@@ -1,5 +1,20 @@
 # Panic Game - WIP
 
+## MERGE CONFLICTS
+
+There will most likely be conflicts between uassets when you modify an existing one, e.g. `BP_FirstPersonCharacter.uasset.` There's no way to compare differences outside of Unreal Engine so just follow these steps when merging with main:
+
+1. `git checkout main`
+2. `git merge <your-branch>`
+3. `git status` to show which uassets are conflicting make a note of them
+4. `git merge --abort` to go back to unmerged state
+5. `git checkout <your-branch>`
+6. Make a copy of conflicting assets and add your branch name to the file name so it's easy to diff
+7. `git add .`
+8. `git commit -m "diffing conflicts"` to commit the copies
+9. Open up Unreal and diff the conflicting files - CTRL select both copies in content browser -> right click -> diff selected
+10. After fixing the conflicts delete the copy you don't want to keep and merge with main again.
+
 ## MVP
 
 ### UI
