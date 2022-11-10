@@ -2,9 +2,7 @@
 
 A VR escape room stealth game for UNSW COMP3421 project.
 
-------------------------------------
 ## Panic bar states
-------------------------------------
 
 ### Calm (0-25)
 
@@ -31,10 +29,7 @@ A VR escape room stealth game for UNSW COMP3421 project.
 * game over if within hostile NPC proximity
 * panic bar disappears but could still be rising or lowering
 
-
-------------------------------------
 ## VR - demo 2
-------------------------------------
 
 ### Safe Zone
 
@@ -101,9 +96,7 @@ A VR escape room stealth game for UNSW COMP3421 project.
 * Find and transport drugs to the end
 * The less drugs used to lower panic bar the higher the score at the end
 
-------------------------------------
 ## MVP (demo 1)
-------------------------------------
 
 ### UI
 
