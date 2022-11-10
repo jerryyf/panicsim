@@ -1,21 +1,102 @@
 # Panic Game - WIP
 
-## MERGE CONFLICTS
+A VR escape room stealth game for UNSW COMP3421 project.
 
-There will most likely be conflicts between uassets when you modify an existing one, e.g. `BP_FirstPersonCharacter.uasset.` There's no way to compare differences outside of Unreal Engine so just follow these steps when merging with main:
+## Panic bar states
 
-1. `git checkout main`
-2. `git merge <your-branch>`
-3. `git status` to show which uassets are conflicting make a note of them
-4. `git merge --abort` to go back to unmerged state
-5. `git checkout <your-branch>`
-6. Make a copy of conflicting assets and add your branch name to the file name so it's easy to diff
-7. `git add .`
-8. `git commit -m "diffing conflicts"` to commit the copies
-9. Open up Unreal and diff the conflicting files - CTRL select both copies in content browser -> right click -> diff selected
-10. After fixing the conflicts delete the copy you don't want to keep and merge with main again.
+### Calm (0-25)
 
-## MVP
+* Normal UI, Environment and NPC behaviour
+
+### Stressed (25-50)
+
+* Objectives are not longer highlighted on map
+* Rises slowly when not looking at the ground
+
+### Paranoid (50-75)
+
+* Passive NPCs start to look hostile (?)
+* Visual colour filter applied
+* NPC increases in size/detection radius
+* Visual impairment (blur effect)
+* Rises significantly faster when not looking at the ground
+* Player movement slowed if not looking down
+
+### Panic attack (75-100)
+* player cannot move
+* visual blur and shake effect filter
+* breathing minigame to continue (mash a button/rhythm based button presses)
+* game over if within hostile NPC proximity
+* panic bar disappears but could still be rising or lowering
+
+## VR - demo 2
+
+### Safe Zone
+
+* Reduces panic value
+
+### Crouching/sneaking
+
+* Remove player hearing perception stimuli
+
+### AI
+
+* reduce sight perception awareness
+* sniffer dog AI + model + animation
+* hearing perception
+
+### Tutorial Level / Demo level
+
+* Creating tutorial route
+* Create UI instructions as you progress
+* Including mechanics 1 by one
+    * Panic states
+    * NPCs
+        * Police
+        * Line of sight
+        * Chasing player
+        * Raising panic bar
+    * Dogs
+* Packaging
+    * Plastic
+    * Paper
+    * Metal
+    * Breathing minigame
+
+### Breathing minigame
+* refine what success and failing means
+* connect with panic value/panic state
+* deep breathe when success (reduce heavy breathing volume)
+
+### Checking points
+* Npc location
+* Items
+* Items that's picked up replaced on map
+* Doors and keys
+* Reset panic state to calm
+
+### VR-ifying the game
+* convert the game to vr
+
+### Leaderboard
+* saving high score locally
+
+### Level design
+
+**Level 1: Escape from prison**
+* Finding paperclip
+* Finding key
+* Dodge police
+
+**Level 2: On the street**
+* Dodge cars
+* Escape chasing NPCs
+
+**Win condition**
+* Find and transport drugs to the end
+* The less drugs used to lower panic bar the higher the score at the end
+
+## MVP (demo 1)
 
 ### UI
 
@@ -77,5 +158,5 @@ There will most likely be conflicts between uassets when you modify an existing 
 
 ### Breathing Mini-game
  
-* Appears at “Panic attack” state
+* Appears at "Panic attack" state
 * Rhythm based game when succeeding lowers panic bar
