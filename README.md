@@ -1,4 +1,4 @@
-# Panic Game - WIP
+# Panic Game
 
 A VR escape room stealth game for UNSW COMP3421 project.
 
